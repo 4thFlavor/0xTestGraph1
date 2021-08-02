@@ -1,0 +1,10 @@
+type SLPSupplyUpdate @entity {
+    id: ID!
+    sender: Bytes!
+    amount0: BigInt!
+    amount1: BigInt!
+    to: Bytes
+    updateType: String!
+    updatedAtBlock: BigInt!
+    updatedAtTransaction: Bytes!
+}
